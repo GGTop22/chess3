@@ -1,4 +1,5 @@
 def symbolsToIntCoord(k: str) -> (int, int):
+    k = k.upper()
     a = ord(k[0]) - ord('A') + 1
     b = int(k[1])
     return (a, b)
